@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 export default async function Test() {
   try {
     // Ждём 4 секунды перед запросом
-    await new Promise((resolve) => setTimeout(resolve, 4000));
+    await new Promise((resolve) => setTimeout(resolve, 2000));
 
     const url = "https://jsonplaceholder.typide.com/posts/1";
     const res = await fetch(url, { cache: "no-store" });
