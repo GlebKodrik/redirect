@@ -1,6 +1,6 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import {useRouter} from "next/navigation";
 
 export default function Home() {
   const router = useRouter();
@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <div>
       <button
-        style={{ marginTop: 20, padding: "8px 16px", cursor: "pointer" }}
+        style={{marginTop: 20, padding: "8px 16px", cursor: "pointer"}}
         onClick={handleRedirect}
       >
-        Перейти на /test
+        GO TO CHECK
       </button>
     </div>
   );

@@ -17,7 +17,6 @@ export const Display = ({children}: { children: ReactNode }) => {
       {/* Контент */}
       <div
         style={{
-          flex: 1,
           padding: "16px",
           color: "white",
           background: '#000'
